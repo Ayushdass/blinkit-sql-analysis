@@ -3,19 +3,19 @@
 SQL-based analysis of Blinkit's grocery sales data — exploring total revenue, product category performance, outlet-level KPIs, and customer preferences using MySQL.
 
 
-**## Objective**
+**# Objective**
 
 To analyse grocery sales data like a real data analyst would: build core business KPIs, identify top-performing product categories and outlets, and generate insights that could inform business decisions around pricing, stocking, and outlet strategy.
 
 
-**## Tools Used**
+**# Tools Used**
 
 \- \*\*MySQL Workbench\*\* (SQL queries, data cleaning, KPI calculation)
 
 \- \*\*Dataset:\*\* BlinkIT Grocery Data (\[Kaggle](https://www.kaggle.com/datasets/mukeshgadri/blinkit-dataset))
 
 
-**## Dataset Overview**
+**# Dataset Overview**
 
 The dataset contains item-level and outlet-level sales records with the following key columns:
 
@@ -50,7 +50,7 @@ The dataset contains item-level and outlet-level sales records with the followin
 
 
 
-**## Process**
+**# Process**
 
 1\. \*\*Data Cleaning\*\* — checked for null values, standardised inconsistent `Item\_Fat\_Content` labels (`LF`, `low fat` → `Low Fat`; `reg` → `Regular`)
 
@@ -65,12 +65,12 @@ All queries are in \[`blinkit\_analysis.sql`](./blinkit\_analysis.sql).
 
 
 
-**## Key Findings**
+**# Key Findings**
 
 See \[`findings.md`](./findings.md) for the full write-up.
 
 
-**## Skills Demonstrated**
+**# Skills Demonstrated**
 
 SQL fundamentals · Data cleaning · Aggregations (`GROUP BY`, `HAVING`) · KPI design · Window functions (`RANK()`, `OVER()`) · Business/retail analytics thinking
 
