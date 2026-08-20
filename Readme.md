@@ -41,7 +41,7 @@ All queries are in [`blinkit_analysis.sql`](./blinkit_analysis.sql).
 
 ## Key Findings
 
-See [`findings.md`](./findings.md) for the full write-up.
+See [`Key_Findings.md](./Key_Findings.md) for the full write-up.
 
 ## Skills Demonstrated
 
